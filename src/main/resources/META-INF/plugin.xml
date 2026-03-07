@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-  <id>com.github.eriklieben.eriks-theme</id>
+  <id>com.eriklieben.eriks-theme</id>
   <name>Erik's Theme</name>
   <vendor url="https://github.com/eriklieben">Erik Lieben</vendor>
   <description><![CDATA[
@@ -33,9 +33,9 @@ It includes a light and dark variant, both targeting the <strong>Islands</strong
 ]]></description>
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="com.github.eriklieben.light" path="/themes/erikLight.theme.json"
+    <themeProvider id="com.eriklieben.jetbrains.theme.light" path="/themes/erikLight.theme.json"
                    targetUi="islands"/>
-    <themeProvider id="com.github.eriklieben.dark" path="/themes/erikDark.theme.json"
+    <themeProvider id="com.eriklieben.jetbrains.theme.dark" path="/themes/erikDark.theme.json"
                    targetUi="islands"/>
   </extensions>
 </idea-plugin>
