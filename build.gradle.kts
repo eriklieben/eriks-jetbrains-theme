@@ -29,6 +29,7 @@ intellijPlatform {
 
         ideaVersion {
             sinceBuild.set(providers.gradleProperty("pluginSinceBuild"))
+            untilBuild.set(provider { null })
         }
     }
 
@@ -46,6 +47,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set(providers.gradleProperty("pluginSinceBuild"))
+        untilBuild.set(provider { null })
     }
 
     wrapper {
