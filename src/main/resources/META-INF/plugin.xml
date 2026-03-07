@@ -1,0 +1,41 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+  <id>com.github.eriklieben.eriks-theme</id>
+  <name>Erik's Theme</name>
+  <vendor url="https://github.com/eriklieben">Erik Lieben</vendor>
+  <description><![CDATA[
+<h2>A personal theme for JetBrains IDEs</h2>
+
+<p>
+Erik's Theme is a custom theme inspired by <a href="https://github.com/catppuccin/jetbrains">Catppuccin</a>,
+tailored for a comfortable coding experience in JetBrains Rider and other JetBrains IDEs.
+It includes a light and dark variant, both targeting the <strong>Islands</strong> UI.
+</p>
+
+<h3>Variants</h3>
+<ul>
+  <li><strong>Erik's theme (light)</strong> — A warm, blue-tinted light theme</li>
+  <li><strong>Erik's theme (dark)</strong> — A comfortable dark theme</li>
+</ul>
+
+<h3>Usage</h3>
+<ul>
+  <li>Head to <strong>Settings</strong> → <strong>Appearance & Behaviour</strong> → <strong>Appearance</strong></li>
+  <li>Select <strong>Erik's theme (light)</strong> or <strong>Erik's theme (dark)</strong></li>
+  <li><strong>(Optional)</strong> Restart your IDE</li>
+</ul>
+
+<h3>Help</h3>
+<ul>
+  <li><a href="https://github.com/eriklieben/eriks-jetbrains-theme" target="_blank">GitHub Repository</a></li>
+  <li><a href="https://github.com/eriklieben/eriks-jetbrains-theme/issues" target="_blank">Issue Tracker</a></li>
+</ul>
+]]></description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.github.eriklieben.light" path="/themes/erikLight.theme.json"
+                   targetUi="islands"/>
+    <themeProvider id="com.github.eriklieben.dark" path="/themes/erikDark.theme.json"
+                   targetUi="islands"/>
+  </extensions>
+</idea-plugin>
