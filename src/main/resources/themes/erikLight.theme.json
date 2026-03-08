@@ -5,20 +5,20 @@
   "author": "Erik Lieben",
   "editorScheme": "/themes/erikLight.xml",
   "colors": {
-    "rosewater": "#905a4e",
-    "flamingo": "#9b5454",
-    "mauve": "#7c3acd",
-    "pink": "#9a4d85",
-    "maroon": "#bc3844",
-    "red": "#bf1e3d",
-    "peach": "#b04900",
-    "yellow": "#925d12",
-    "green": "#2f7720",
-    "teal": "#12747a",
-    "blue": "#1b5ee3",
-    "sky": "#02709b",
-    "sapphire": "#177282",
-    "lavender": "#5362b8",
+    "rosewater": "#dc8a78",
+    "flamingo": "#dd7878",
+    "mauve": "#8839ef",
+    "pink": "#ea76cb",
+    "maroon": "#e64553",
+    "red": "#d20f39",
+    "peach": "#fe640b",
+    "yellow": "#df8e1d",
+    "green": "#40a02b",
+    "teal": "#179299",
+    "blue": "#1e66f5",
+    "sky": "#04a5e5",
+    "sapphire": "#209fb5",
+    "lavender": "#7287fd",
     "crust": "#e4eaf6",
     "mantle": "#dae2f2",
     "base": "#edf1fa",
@@ -32,7 +32,7 @@
     "subtext0": "#4a5270",
     "subtext1": "#3c4462",
     "accentColor": "#3574e0",
-    "secondaryAccentColor": "#925d12",
+    "secondaryAccentColor": "#df8e1d",
     "primaryForeground": "#2e3450",
     "primaryBackground": "#edf1fa",
     "secondaryBackground": "#c4cee4",
@@ -73,14 +73,14 @@
       "pressedBackground": "hoverBackground"
     },
     "Banner": {
-      "errorBackground": "#bf1e3d1a",
-      "errorBorderColor": "#bf1e3d26",
+      "errorBackground": "#d20f391a",
+      "errorBorderColor": "#d20f3926",
       "errorForeground": "primaryForeground",
-      "informativeBackground": "#1b5ee31a",
-      "informativeBorderColor": "#1b5ee31a",
+      "informativeBackground": "#1e66f51a",
+      "informativeBorderColor": "#1e66f51a",
       "informativeForeground": "primaryForeground",
-      "warningBackground": "#b049001a",
-      "warningBorderColor": "#b049001a",
+      "warningBackground": "#fe640b1a",
+      "warningBorderColor": "#fe640b1a",
       "warningForeground": "primaryForeground"
     },
     "Bookmark": {
@@ -371,12 +371,12 @@
       "paintBorder": false
     },
     "ProgressBar": {
-      "failedColor": "#bf1e3d",
-      "failedEndColor": "#bc3844",
-      "indeterminateEndColor": "#925d12",
+      "failedColor": "#d20f39",
+      "failedEndColor": "#e64553",
+      "indeterminateEndColor": "#df8e1d",
       "indeterminateStartColor": "#3574e0",
-      "passedColor": "#2f7720",
-      "passedEndColor": "#12747a",
+      "passedColor": "#40a02b",
+      "passedEndColor": "#179299",
       "progressColor": "#3574e0",
       "trackColor": "#b4c0e0"
     },
@@ -577,16 +577,16 @@
         "foreground": "#8592b0"
       },
       "SuccessStatus": {
-        "foreground": "#2f7720"
+        "foreground": "#40a02b"
       },
       "InconclusiveStatus": {
-        "foreground": "#925d12"
+        "foreground": "#df8e1d"
       },
       "FailedStatus": {
-        "foreground": "#bf1e3d"
+        "foreground": "#d20f39"
       },
       "AbortedStatus": {
-        "foreground": "#bf1e3d"
+        "foreground": "#d20f39"
       },
       "PendingStatus": {
         "foreground": "primaryForeground"
@@ -662,24 +662,24 @@
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "#1b5ee3",
-      "Actions.Green": "#2f7720",
+      "Actions.Blue": "#1e66f5",
+      "Actions.Green": "#40a02b",
       "Actions.Grey": "#8592b0",
-      "Actions.GreyInline": "#1b5ee3",
-      "Actions.GreyInline.Dark": "#1b5ee3",
-      "Actions.Red": "#bf1e3d",
-      "Actions.Yellow": "#925d12",
+      "Actions.GreyInline": "#1e66f5",
+      "Actions.GreyInline.Dark": "#1e66f5",
+      "Actions.Red": "#d20f39",
+      "Actions.Yellow": "#df8e1d",
       "Objects.BlackText": "#c4cee4",
-      "Objects.Blue": "#1b5ee3",
-      "Objects.Green": "#2f7720",
-      "Objects.GreenAndroid": "#2f7720",
+      "Objects.Blue": "#1e66f5",
+      "Objects.Green": "#40a02b",
+      "Objects.GreenAndroid": "#40a02b",
       "Objects.Grey": "#8592b0",
-      "Objects.Pink": "#9a4d85",
-      "Objects.Purple": "#7c3acd",
-      "Objects.Red": "#bf1e3d",
-      "Objects.RedStatus": "#bf1e3d",
-      "Objects.Yellow": "#925d12",
-      "Objects.YellowDark": "#9b5454",
+      "Objects.Pink": "#ea76cb",
+      "Objects.Purple": "#8839ef",
+      "Objects.Red": "#d20f39",
+      "Objects.RedStatus": "#d20f39",
+      "Objects.Yellow": "#df8e1d",
+      "Objects.YellowDark": "#dd7878",
 
       "Checkbox.Background.Default": "#edf0f8",
       "Checkbox.Background.Disabled": "#edf0f8",
