@@ -9,19 +9,20 @@
 <p>
 Erik's Theme is a custom theme inspired by <a href="https://github.com/catppuccin/jetbrains">Catppuccin</a>,
 tailored for a comfortable coding experience in JetBrains Rider and other JetBrains IDEs.
-It includes a light and dark variant, both targeting the <strong>Islands</strong> UI.
+It includes a light and dark variant, plus a warm "Summer Refresh" light variant, all targeting the <strong>Islands</strong> UI.
 </p>
 
 <h3>Variants</h3>
 <ul>
   <li><strong>Erik's theme (light)</strong> — A warm, blue-tinted light theme</li>
   <li><strong>Erik's theme (dark)</strong> — A comfortable dark theme</li>
+  <li><strong>Erik's Summer Refresh</strong> — A warm, sandy light theme with summer tones</li>
 </ul>
 
 <h3>Usage</h3>
 <ul>
   <li>Head to <strong>Settings</strong> → <strong>Appearance & Behaviour</strong> → <strong>Appearance</strong></li>
-  <li>Select <strong>Erik's theme (light)</strong> or <strong>Erik's theme (dark)</strong></li>
+  <li>Select <strong>Erik's theme (light)</strong>, <strong>Erik's theme (dark)</strong>, or <strong>Erik's Summer Refresh</strong></li>
   <li><strong>(Optional)</strong> Restart your IDE</li>
 </ul>
 
@@ -36,6 +37,8 @@ It includes a light and dark variant, both targeting the <strong>Islands</strong
     <themeProvider id="com.eriklieben.jetbrains.theme.light" path="/themes/erikLight.theme.json"
                    targetUi="islands"/>
     <themeProvider id="com.eriklieben.jetbrains.theme.dark" path="/themes/erikDark.theme.json"
+                   targetUi="islands"/>
+    <themeProvider id="com.eriklieben.jetbrains.theme.summerrefresh" path="/themes/erikSummerRefresh.theme.json"
                    targetUi="islands"/>
   </extensions>
 </idea-plugin>
